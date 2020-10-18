@@ -1,0 +1,210 @@
+html, body{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-image: url("bgimage.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#mobile{
+    display: flex;
+    background-color: rgb(255,255,255);
+    box-shadow: 0px 0px 20px rgb(0, 0, 0, 0.25);
+    width: 33vw;
+    height: 80vh;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: nowrap;
+    flex-direction: column;
+    line-height: 0;
+}
+#bgimg{
+    display: flex;
+    background-image: url("https://cdn.pixabay.com/photo/2018/03/21/10/01/desktop-3246124_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 30vh;
+    
+}
+#profil-section{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    top: -7vw;
+    width: 25vw;
+    height: 24vh;
+    box-shadow: 0px 0px 20px rgba(19, 14, 14, 0.25);
+    background-color: rgb(252, 252, 252);
+    z-index: 2;
+    line-height: 0;
+}
+#marks{
+    word-spacing: 10px;
+}
+#marks img{
+    height: 28px;
+    width: 28px;
+    position: relative;
+    top: -60px;
+}
+#profil-foto img{
+    position: relative;
+    left: 25px;
+    top: -40px;
+    height: 120px;
+    width: 120px;
+}
+input{
+    position: relative;
+    top: -60px;
+    left: -20px;
+    height: 40px;
+    width: 40px;
+}
+.name{
+    position: relative;
+    top: -65px;
+}
+.name p:first-child{
+    font-weight: bold;
+    font-size: 14px;
+}
+.name p:last-child{
+    font-size: 10px;
+}
+.comment{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    position: relative;
+    top: -60px;
+    font-size: 12px;
+
+}
+#settings-section{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    line-height: 0;
+    top: -30px;
+    width: 25vw;
+    height: 35vh;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0, 0.25);
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    font-size: 14px;
+    color: black;
+}
+.entity1{
+    position: relative;
+    top: -15px;
+    right: -130px;
+}
+.entity2{
+    position: relative;
+    top: -15px;
+    right: -164px;
+}
+.entity3{
+    position: relative;
+    top: -15px;
+    right: -149px;
+}
+.entity4{
+    position: relative;
+    top: -15px;
+    right: -205px;
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    position: relative;
+    top: -15px;
+}
+#menu{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0, 0.25);
+    background-color: rgb(255, 255, 255);
+    height: 7vh;
+    width: 33vw;
+    z-index: 1;
+}
+#menu img{
+    width: 400px;
+    height: 400px;
+}
+#upbar{
+    display: flex;
+    justify-content: space-between;
+}
+#upbar-img1{
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+#upbar-img2{
+    position: relative;
+    top: 5px;
+    left: 63vh;
+}
+#upbar img{
+    width: 16px;
+    height: 16px;
+}
+#settings-section img{
+    width: 40px;
+    height: 40px;
+}
+#section-header1{
+    position: relative;
+    left: -35px;
+    bottom: 44px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+#section-header2{
+    position: relative;
+    left: -30px;
+    bottom: -10px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
+}
+a:active{
+    color: black;
+}
+a:visited{
+    color: black;
+}
