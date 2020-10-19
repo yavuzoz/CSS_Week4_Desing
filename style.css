@@ -81,7 +81,7 @@ input{
 }
 .name{
     position: relative;
-    top: -65px;
+    top: -60px;
 }
 .name p:first-child{
     font-weight: bold;
